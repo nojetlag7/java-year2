@@ -44,7 +44,7 @@ public class Quality{
         // }
 
         for(int i = 0;i < responses.length;i++){
-            count[responses[i-1]]++;
+            count[responses[i]-1]++;
         }
         /*
          for multiline using the arrow,
