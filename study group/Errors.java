@@ -35,7 +35,7 @@ public class Errors{
          FileNotFoundexception, ArrayINdexOutOfBoundsException,etc
          */
 
-         //java also has lamda expressions apprarently
+         //java also has lambda expressions apprarently
 
          //INTERFACES
 
