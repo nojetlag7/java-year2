@@ -27,6 +27,14 @@ public class Date {
         // Date1 defaultx = new Date1();
         // System.out.println("The defualt date is " + defaultx.output());
         // System.out.println("Your birthday is " + birthday.output());
+
+        String[] names = {"Hello","Bass","COke"};
+        int[] marks = {1,2,3};
+
+        for(int i= 0; i < names.length;i++){
+            System.out.println((i+1) + "." + names[i] + "\t\t\t" + marks[i]);
+        }
+        
     }
 
 }

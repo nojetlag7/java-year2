@@ -28,6 +28,7 @@ public class Arraylab{
                 month_index++;
             }
         }
+
         
         for(int i = 0;i< 4;i++){//4 quarters
             int sum = 0;
@@ -38,6 +39,7 @@ public class Arraylab{
             combined_yearly_sales += sum;
         }
     
+        
         System.out.println("Monthly Combined Sales:\n");
         for (int i = 0; i < combined_monthly_sales.length; i++) {
             System.out.println("Month " + (i + 1) + ": $" + combined_monthly_sales[i]);

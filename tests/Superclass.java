@@ -5,6 +5,7 @@ public class Superclass {
         
         first.make_noise(); //Donkey is making noise
         second.make_noise(); //this mammal is making noise
+        
 }
 }
 class Animal{
