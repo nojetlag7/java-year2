@@ -96,7 +96,7 @@ public class Examprep {
                     else if(contains(student_names,search)){
                         for(int i = 0;i < class_size;i++){
                             if(student_names[i].equalsIgnoreCase(search)){
-                                System.out.printf("%s's Details:\n",student_names[i]);
+                                System.out.printf("\n%s's Details:",student_names[i]);
                                 System.out.printf("\nPhone number: %s", student_phone_num[i]);
                                 System.out.printf("\nStudent's holiday rating: %d\n", holiday_ratings[i]);
                             }

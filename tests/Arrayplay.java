@@ -95,8 +95,18 @@ to declare the size at instantiation */
     System.out.println(numbers.get(2));// outputs 3
     System.out.println(numbers1[2]); //outputs 3
 
-  
+        Teacher somet = new Teacher();
+        somet.idNum = 223;
     }
 
     
+}
+
+class Teacher{
+    String name;
+    private int idNum;
+}
+class Student{
+    String name;
+    Teacher teacher;
 }

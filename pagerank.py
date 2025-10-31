@@ -23,8 +23,8 @@ def pagerank(adj_matrix, alpha=0.85, tol=1e-6, max_iter=100):
     r = np.ones(n) / n  # Initial rank vector
     
     for _ in range(max_iter):
-        new_r = np.dot(G, r)  # Matrix-vector multiplication
-        if np.linalg.norm(new_r - r, ord=1) < tol:  # Convergence check
+        new_r = np.dot(G, r)  
+        if np.linalg.norm(new_r - r, ord=1) < tol: 
             break
         r = new_r
     

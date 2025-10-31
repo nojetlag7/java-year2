@@ -18,6 +18,7 @@ public class Arraylab{
         int[] combined_quarterly_sales = new int[4];
         int combined_yearly_sales = 0,yearly_hstreet=0,yearly_mall=0;
         int month_index = 0;
+    
 
         for(int i = 0;i < hstreet.length;i++){
             for(int j = 0; j < hstreet[i].length;j++){

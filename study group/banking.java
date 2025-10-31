@@ -91,4 +91,8 @@ public class banking {
         System.out.printf("Account holder name: %s", object.account_name);
     }
 
+    public int getAge() {
+        return age;
+    }
+
 }

@@ -43,7 +43,8 @@ public class HolidayApp {
                     System.out.print("Enter holiday destination rating (1-7): ");
                     rating = Integer.parseInt(input.nextLine().trim());
                     if (rating < 1 || rating > 7) {
-                        System.out.println("Rating must be between 1 and 7. Try again.");
+                        throw new NumberFormatException();
+                        //System.out.println("Rating must be between 1 and 7. Try again.");
                     } else {
                         break;
                     }
