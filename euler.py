@@ -24,5 +24,18 @@ def even_fib(limit=4000000):
             total += a
         a, b = b, a + b
     return total
+
+
+def sum_even_square(n):
+    """Return the sum of the squares of all even numbers from 1 to n (inclusive).
+
+    Args:
+        n (int): The upper limit of the range.
+    """
+    n = n // 2
+    arg1 = (n * (n + 1) * (2 * n + 1) ) // 6
+    return 4 * arg1
+
 print(sum_odd_square(472000))
 print(even_fib(4000000))
+print(sum_even_square(472000))
